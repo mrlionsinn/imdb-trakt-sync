@@ -6,17 +6,17 @@ IMDB:
     #   none        - no dependent fields
     AUTH: credentials
     # IMDb account email address
-    EMAIL: user@domain.com
+    EMAIL: robert.sinn1992@googlemail.com
     # IMDb account password
-    PASSWORD: password123
+    PASSWORD: Popolino1102
     # The cookies can be used as a fallback if captcha is preventing the authentication flow
     # Log into your IMDb account from a web browser, inspect the cookies and retrieve the value of cookie:
     # name: at-main | domain: .imdb.com
-    COOKIEATMAIN: zAta|RHiA67JIrBDPaswIym3GyrTlEuQH-u9yrKP3BUNCHgVyE4oNtUzBYVKlhjjzBiM_Z-GSVnH9rKW3Hf7LdbejovoF6SI4ZmgJcTIUXoA4NVcH1Qahwm0KYCyz95o1gsgby-uQwdU6CoS6MFTnjMkLe1puNiv4uFkvo8mOQulJJeutzYedxiUd0ns9w1X_WeVXPTZWjwisPZMw3EOR6-q9xR4kCEWRW7CmWxU1AEDQbT8ns_AJJD34w1nIQUkuLgBQrvJI_pY
+    COOKIEATMAIN: Atza|IwEBIHjQLXeIYMlw2sRhFChNKPpYefWEIlFzlFQKf9tcuuwXA1U_2LpmUbAwnhIc1MEHHV5nfKlthoDlJCBtDWxADrXXEn_LNEZHF-SKRDr1KJL7b1nAzWd9d37GwD1fvLzLnsuBjkS2Ce0HHBwQbkXOfLgaF72KMSEahozKAW_agxHDTBj_Azku4BrKC0NipFdzNq0qDkifJNOpk5nQc-eaTLzsYMJCFr9x7CQrkYVUYU5Pxg
     # The cookies can be used as a fallback if captcha is preventing the authentication flow
     # Log into your IMDb account from a web browser, inspect the cookies and retrieve the value of cookie:
     # name: ubid-main | domain: .imdb.com
-    COOKIEUBIDMAIN: 301-0710501-5367639
+    COOKIEUBIDMAIN: 
     # Array of IMDb lists that you would like synced to Trakt
     # If this array is empty, all IMDb lists will be synced to Trakt
     # Keep in mind the maximum number of lists you can have in Trakt: https://twitter.com/trakt/status/1536751362943332352
@@ -40,13 +40,13 @@ SYNC:
     MODE: dry-run
     # Whether to sync history or not. If set to true, history will be synced
     # When IMDB_AUTH is none, history will be ignored
-    HISTORY: false
+    HISTORY: true
     # Whether to sync ratings or not. If set to true, ratings will be synced
     # When IMDB_AUTH is none, ratings will be ignored
-    RATINGS: false
+    RATINGS: true
     # Whether to watchlist or not. If set to true, watchlist will be synced
     # When IMDB_AUTH is none, watchlist will be ignored
-    WATCHLIST: false
+    WATCHLIST: true
     # Maximum duration to run the syncer
     # Users with large IMDb/Trakt libraries might have to increase the timeout value accordingly
     # Valid time units are: ns, us (or µs), ms, s, m, h
@@ -54,13 +54,13 @@ SYNC:
 TRAKT:
     # Trakt app client ID
     # You need to replace this value with your own, the default value is for illustrative purposes only
-    CLIENTID: 828832482dea6fffa4453f849fe873de8be54791b9acc01f6923098d0a62972d
+    CLIENTID: 8cf937fa44637d73a707732b06bb7eacd00c169cd46069888de762574c2e81ba
     # Trakt app client secret
     # You need to replace this value with your own, the default value is for illustrative purposes only
-    CLIENTSECRET: bdf9bab88c17f3710a6394607e96cd3a21dee6e5ea0e0236e9ed06e425ed8b6f
+    CLIENTSECRET: 1591094fbf962c37eddd4ceb9957236915620510b3892257d4a61aeb7a23aaed
     # Trakt account email address (not to be confused with username)
     # You need to replace this value with your own, the default value is for illustrative purposes only
-    EMAIL: user@domain.com
+    EMAIL: robsem92@gmail.com
     # Trakt account password
     # You need to replace this value with your own, the default value is for illustrative purposes only
-    PASSWORD: password123
+    PASSWORD: Popolino1102!
